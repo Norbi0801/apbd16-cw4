@@ -4,10 +4,10 @@ namespace Tutorial6;
 
 public static class Database
 {
-    public static List<Test> Tests = new List<Test>()
+    public static List<Animal> Animals = new()
     {
-        new Test() { Id = 1, Name = "Test1" },
-        new Test() { Id = 2, Name = "Test2" },
-        new Test() { Id = 3, Name = "Test3" }
+        new Animal() { Id = 1, Name = "Rick" , Category = "Pies", Mass = 1.5 },
+        new Animal() { Id = 2, Name = "Paul" , Category = "Kot", Mass = 2.5 },
+        new Animal() { Id = 3, Name = "Richard" , Category = "Chomik", Mass = 0.5 }
     };
 }
